@@ -1,3 +1,4 @@
+#streamlit'e baglanmak ivin terminale: streamlit run .\main.py
 # library
 import cv2
 from PIL import Image
@@ -36,3 +37,6 @@ if file is not None:
     else:
         st.write("#### [INFO].. Plate is not detected!")
         st.image(detection_result, use_column_width=True)
+
+
+
